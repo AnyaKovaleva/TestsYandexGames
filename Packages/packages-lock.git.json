@@ -1,0 +1,14 @@
+{
+    "dependencies": [
+        {
+            "name": "jp.hadashikick.vcontainer",
+            "hash": "af7bd4ecabaf6ea3f9e58ecc4352dd5296e5ef29",
+            "url": "https://github.com/hadashiA/VContainer.git?path=VContainer/Assets/VContainer#1.13.2"
+        },
+        {
+            "name": "com.pushkeen.tools",
+            "hash": "6b1e15751746cf144a626250c92eff1af1d008ae",
+            "url": "https://github.com/PushKeenLLC/Tools-Package.git"
+        }
+    ]
+}
