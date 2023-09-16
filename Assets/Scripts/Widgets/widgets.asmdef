@@ -1,0 +1,16 @@
+{
+    "name": "widgets",
+    "rootNamespace": "",
+    "references": [
+        "GUID:fca35c8737365354094ea69a9ac2ea23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

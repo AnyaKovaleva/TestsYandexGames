@@ -25,16 +25,20 @@ Label {
     color: rgb(255, 255, 255);
     -unity-font-definition: url('project://database/Assets/Fonts/Play-Bold%20SDF.asset?fileID=11400000&guid=25a50b47efae4f44cb8b3fa60c3f4f57&type=2#Play-Bold SDF');
     -unity-font: url('project://database/Assets/Fonts/Play-Bold.ttf?fileID=12800000&guid=2c344710bbf24724591032ecb46e52ff&type=3#Play-Bold');
-    border-left-width: 0;
-    border-right-width: 0;
-    border-top-width: 0;
-    border-bottom-width: 0;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
     background-color: rgb(252, 187, 61);
     border-top-left-radius: 60px;
     border-bottom-left-radius: 60px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
     flex-shrink: 0;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
 }
 
 .answer-button {
@@ -52,4 +56,36 @@ Label {
     border-bottom-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.yellow-button:active {
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    background-color: rgb(255, 173, 15);
+    border-left-color: rgb(221, 152, 20);
+    border-right-color: rgb(221, 152, 20);
+    border-top-color: rgb(221, 152, 20);
+    border-bottom-color: rgb(221, 152, 20);
+}
+
+.answer-button:active {
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    background-color: rgb(255, 173, 15);
+    border-left-color: rgb(221, 152, 20);
+    border-right-color: rgb(221, 152, 20);
+    border-top-color: rgb(221, 152, 20);
+    border-bottom-color: rgb(221, 152, 20);
 }
