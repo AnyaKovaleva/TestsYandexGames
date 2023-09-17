@@ -3,10 +3,11 @@ using UnityEngine;
 
 namespace Collection
 {
+    [CreateAssetMenu]
     [Serializable]
-    public class EnergyCat
+    public class EnergyCat : ScriptableObject
     {
-        public Sprite Image;
         public string Name;
+        public Sprite Image;
     }
 }
