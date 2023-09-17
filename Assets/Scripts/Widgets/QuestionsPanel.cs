@@ -76,7 +76,7 @@ namespace Widgets
         private void ShowTestResult()
         {
             EnergyCat result = _answerHandler.CalculateTestResults();
-            Debug.Log("You are " + result.Name);
+            _navigator.Push<ResultPanel>(result);
         }
     }
 

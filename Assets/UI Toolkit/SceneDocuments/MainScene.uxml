@@ -14,7 +14,7 @@
                 <ui:Button text="Колекция" display-tooltip-when-elided="true" name="ColectionButton" class="yellow-button" style="width: 477px; height: 112px;" />
             </ui:VisualElement>
         </ui:VisualElement>
-        <ui:VisualElement name="QuestionsPanel" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 100%; height: 281%; align-items: center; justify-content: flex-end; margin-bottom: 100px; display: flex;">
+        <ui:VisualElement name="QuestionsPanel" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 100%; height: 281%; align-items: center; justify-content: flex-end; margin-bottom: 100px; display: none;">
             <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 100%; min-width: auto; min-height: auto; align-items: center; justify-content: center;">
                 <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 100%; min-width: auto; min-height: auto; align-items: center; justify-content: center;">
                     <ui:Label tabindex="-1" text="Какое ваше отношение к магии и загадочным явлениям?" display-tooltip-when-elided="true" name="Question" style="font-size: 45px; -unity-text-align: upper-center; white-space: normal; width: 100%; padding-left: 70px; padding-right: 70px;" />
@@ -25,6 +25,15 @@
                 <ui:Button text="Button" display-tooltip-when-elided="true" name="Answer2" class="yellow-button answer-button" style="width: 500px;" />
                 <ui:Button text="Пытаюсь сохранить спокойствие и размышляю над решением" display-tooltip-when-elided="true" name="Answer3" class="yellow-button answer-button" style="width: 500px;" />
                 <ui:Button text="Button" display-tooltip-when-elided="true" name="Answer4" class="yellow-button answer-button" style="width: 500px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="ResultPanel" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 100%; height: 281%; min-width: auto; min-height: auto; align-items: center; justify-content: center; display: flex;">
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 410px; flex-direction: row; align-self: flex-start; width: 100%; justify-content: center; padding-left: 150px; padding-right: 150px; flex-wrap: nowrap; position: relative; max-height: 55%;">
+                <ui:VisualElement name="EnergyCatImage" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: 205px; background-image: url(&apos;project://database/Assets/Images/classicMonster.png?fileID=21300000&amp;guid=f206fee09dbbfb0459a68bf80668e55e&amp;type=3#classicMonster&apos;); -unity-background-scale-mode: scale-to-fit;" />
+            </ui:VisualElement>
+            <ui:Label tabindex="-1" text="Ты классический кот энергетик" display-tooltip-when-elided="true" name="ResultLabel" style="font-size: 60px; margin-bottom: 65px; white-space: normal; -unity-text-align: middle-center; margin-top: 30px; margin-left: 60px; margin-right: 60px;" />
+            <ui:VisualElement style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-shrink: 0;">
+                <ui:Button text="В главное меню" display-tooltip-when-elided="true" name="MainMenuButton" class="yellow-button" style="width: 477px; height: 112px; margin-bottom: 25px;" />
             </ui:VisualElement>
         </ui:VisualElement>
     </PushKeen.UIFramework.VisualElements.SafeAreaManager>
