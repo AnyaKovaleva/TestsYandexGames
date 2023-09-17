@@ -2,7 +2,7 @@
     <Style src="project://database/Assets/UI%20Toolkit/StyleSheets/main.uss?fileID=7433441132597879392&amp;guid=bd4f71d8ea095ab449d36255aecc65d0&amp;type=3#main" />
     <ui:VisualElement style="flex-grow: 1; background-color: rgb(39, 195, 242); position: absolute; width: 100%; height: 100%;" />
     <PushKeen.UIFramework.VisualElements.SafeAreaManager style="align-items: center; justify-content: center;">
-        <ui:VisualElement name="MainMenu" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 100%; height: 281%; min-width: auto; min-height: auto; align-items: center; justify-content: center; display: flex;">
+        <ui:VisualElement name="MainMenu" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 100%; height: 281%; min-width: auto; min-height: auto; align-items: center; justify-content: center; display: none;">
             <ui:VisualElement style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); height: 281px; flex-direction: row; align-self: flex-start; width: 100%; justify-content: space-between; padding-left: 150px; padding-right: 150px; flex-wrap: nowrap; position: relative;">
                 <ui:VisualElement style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: 127px; height: 281px; background-image: url(&apos;project://database/Assets/Images/QuestionmarkCat.png?fileID=21300000&amp;guid=ad6cc614813b02c41b270089df25910c&amp;type=3#QuestionmarkCat&apos;); -unity-background-scale-mode: scale-to-fit; rotate: -30deg; transform-origin: right bottom; bottom: 20px;" />
                 <ui:VisualElement style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: 127px; height: 281px; background-image: url(&apos;project://database/Assets/Images/QuestionmarkCat.png?fileID=21300000&amp;guid=ad6cc614813b02c41b270089df25910c&amp;type=3#QuestionmarkCat&apos;); -unity-background-scale-mode: scale-to-fit;" />
@@ -14,7 +14,7 @@
                 <ui:Button text="Колекция" display-tooltip-when-elided="true" name="ColectionButton" class="yellow-button" style="width: 477px; height: 112px;" />
             </ui:VisualElement>
         </ui:VisualElement>
-        <ui:VisualElement name="QuestionsPanel" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 100%; height: 281%; align-items: center; justify-content: flex-end; margin-bottom: 100px; display: none;">
+        <ui:VisualElement name="QuestionsPanel" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 100%; height: 281%; align-items: center; justify-content: flex-end; margin-bottom: 100px; display: flex;">
             <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 100%; min-width: auto; min-height: auto; align-items: center; justify-content: center;">
                 <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 100%; min-width: auto; min-height: auto; align-items: center; justify-content: center;">
                     <ui:Label tabindex="-1" text="Какое ваше отношение к магии и загадочным явлениям?" display-tooltip-when-elided="true" name="Question" style="font-size: 45px; -unity-text-align: upper-center; white-space: normal; width: 100%; padding-left: 70px; padding-right: 70px;" />

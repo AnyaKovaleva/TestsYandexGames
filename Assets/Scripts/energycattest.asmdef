@@ -1,9 +1,7 @@
 {
-    "name": "widgets",
+    "name": "energycattest",
     "rootNamespace": "",
     "references": [
-        "GUID:fca35c8737365354094ea69a9ac2ea23",
-        "GUID:417795b7d6456224784d0fd9562badce",
         "GUID:b0214a6008ed146ff8f122a6a9c2f6cc"
     ],
     "includePlatforms": [],

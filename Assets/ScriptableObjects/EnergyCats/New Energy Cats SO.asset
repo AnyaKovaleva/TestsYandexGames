@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf4bb03373da4c8a96d14b14403f8b4b, type: 3}
+  m_Name: New Energy Cats SO
+  m_EditorClassIdentifier: 
+  EnergyCats:
+  - {fileID: 11400000, guid: ca3bd352bd9471f4d8caa64f7473b8ec, type: 2}
+  - {fileID: 11400000, guid: 919dfcaee7eef2c459ad2ba2536ab453, type: 2}
+  - {fileID: 11400000, guid: fe94af89e2289bf4db25ce2e3c1d075c, type: 2}
