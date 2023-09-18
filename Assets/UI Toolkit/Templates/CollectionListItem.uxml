@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="CollectionListItem" style="flex-grow: 0; width: 256px; flex-shrink: 0; align-items: center; justify-content: space-between; margin-right: 22px; margin-bottom: 44px; margin-left: 22px;">
+        <ui:VisualElement style="flex-grow: 0; width: 100%; height: 256px; background-color: rgb(255, 255, 255); border-top-width: 8px; border-right-width: 8px; border-bottom-width: 8px; border-left-width: 8px; border-left-color: rgb(252, 187, 61); border-right-color: rgb(252, 187, 61); border-top-color: rgb(252, 187, 61); border-bottom-color: rgb(252, 187, 61); border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; border-bottom-left-radius: 50px; flex-shrink: 0; align-items: center;">
+            <ui:VisualElement name="Image" class="locked-colection-item" style="flex-grow: 1; width: 113px;" />
+        </ui:VisualElement>
+        <ui:Label tabindex="-1" text="очень длинный кот энергетик" display-tooltip-when-elided="true" name="Name" style="font-size: 32px; white-space: normal; -unity-text-align: upper-center; margin-top: 10px;" />
+    </ui:VisualElement>
+</ui:UXML>

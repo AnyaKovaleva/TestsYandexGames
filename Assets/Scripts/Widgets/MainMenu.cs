@@ -17,6 +17,7 @@ namespace Widgets
         public void InitButtonEvents()
         {
             _view.StartButton.clicked += () => _navigator.Push<QuestionsPanel>();
+            _view.ColectionButton.clicked += () => _navigator.Push<CollectionPanel>();
         }
     }
 

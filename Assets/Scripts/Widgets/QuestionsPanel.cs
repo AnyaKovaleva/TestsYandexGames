@@ -17,6 +17,7 @@ namespace Widgets
         private QuestionsPanelView _view;
 
         [Inject] private QuestionsSO _questions;
+        [Inject] private EnergyCatsSO _energyCats;
 
         private AnswerHandler _answerHandler;
 
@@ -76,6 +77,7 @@ namespace Widgets
         private void ShowTestResult()
         {
             EnergyCat result = _answerHandler.CalculateTestResults();
+            _energyCats.Unlock(result);
             _navigator.Push<ResultPanel>(result);
         }
     }

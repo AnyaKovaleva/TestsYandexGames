@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Collection
 {
@@ -9,5 +10,6 @@ namespace Collection
     {
         public string Name;
         public Sprite Image;
+        [FormerlySerializedAs("Unlocked")] public bool IsUnlocked = false;
     }
 }

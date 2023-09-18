@@ -11,7 +11,7 @@
             <ui:Label tabindex="-1" text="Какой ты кот энергетик?" display-tooltip-when-elided="true" style="font-size: 70px; margin-bottom: 65px; white-space: normal; -unity-text-align: middle-center; margin-top: 65px;" />
             <ui:VisualElement style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-shrink: 0;">
                 <ui:Button text="Начать" display-tooltip-when-elided="true" name="StartButton" class="yellow-button" style="width: 477px; height: 112px; margin-bottom: 25px;" />
-                <ui:Button text="Колекция" display-tooltip-when-elided="true" name="ColectionButton" class="yellow-button" style="width: 477px; height: 112px;" />
+                <ui:Button text="Коллекция" display-tooltip-when-elided="true" name="ColectionButton" class="yellow-button" style="width: 477px; height: 112px;" />
             </ui:VisualElement>
         </ui:VisualElement>
         <ui:VisualElement name="QuestionsPanel" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 100%; height: 281%; align-items: center; justify-content: flex-end; margin-bottom: 100px; display: none;">
@@ -33,8 +33,19 @@
             </ui:VisualElement>
             <ui:Label tabindex="-1" text="Ты классический кот энергетик" display-tooltip-when-elided="true" name="ResultLabel" style="font-size: 60px; margin-bottom: 65px; white-space: normal; -unity-text-align: middle-center; margin-top: 30px; margin-left: 60px; margin-right: 60px;" />
             <ui:VisualElement style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-shrink: 0;">
-                <ui:Button text="В главное меню" display-tooltip-when-elided="true" name="MainMenuButton" class="yellow-button" style="width: 477px; height: 112px; margin-bottom: 25px;" />
+                <ui:Button text="В главное меню" display-tooltip-when-elided="true" name="MainMenuButton" class="yellow-button" style="width: 440px; height: 90px; margin-bottom: 25px; border-top-left-radius: 46px; border-top-right-radius: 46px; border-bottom-right-radius: 46px; border-bottom-left-radius: 46px; font-size: 32px;" />
+                <ui:Button text="Коллекция" display-tooltip-when-elided="true" name="CollectionButton" class="yellow-button" style="width: 440px; height: 90px; margin-bottom: 25px; border-top-left-radius: 46px; border-top-right-radius: 46px; border-bottom-right-radius: 46px; border-bottom-left-radius: 46px; font-size: 32px;" />
             </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="CollectionPanel" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 100%; height: 281%; min-width: auto; min-height: auto; align-items: center; justify-content: flex-start; display: flex;">
+            <ui:VisualElement style="flex-grow: 0; width: 100%; padding-top: 35px; flex-direction: row; justify-content: space-between; padding-right: 35px; padding-bottom: 35px; align-items: center; padding-left: 35px;">
+                <ui:Button text="X" display-tooltip-when-elided="true" class="yellow-button" style="position: relative; width: 90px; height: 90px; opacity: 0;" />
+                <ui:Label tabindex="-1" text="Твоя  коллекция" display-tooltip-when-elided="true" style="font-size: 55px; -unity-text-align: middle-center; flex-shrink: 1; white-space: normal; min-height: 90px;" />
+                <ui:Button text="X" display-tooltip-when-elided="true" name="MainMenuButton" class="yellow-button" style="position: relative; width: 90px; height: 90px; flex-shrink: 0; font-size: 60px; -unity-font-definition: url(&apos;project://database/Assets/Fonts/Play-Regular%20SDF.asset?fileID=11400000&amp;guid=15b0586fba9ecf149a963564d9b6c462&amp;type=2#Play-Regular SDF&apos;);" />
+            </ui:VisualElement>
+            <ui:ScrollView horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" style="width: 100%; height: 100%;">
+                <ui:VisualElement name="ItemsContainer" style="flex-grow: 1; width: 100%; flex-direction: row; flex-wrap: wrap; align-items: flex-start; justify-content: center;" />
+            </ui:ScrollView>
         </ui:VisualElement>
     </PushKeen.UIFramework.VisualElements.SafeAreaManager>
 </ui:UXML>

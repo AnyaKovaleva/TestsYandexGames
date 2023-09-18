@@ -17,6 +17,7 @@ namespace Widgets
         public void InitButtonEvents()
         {
             _view.MainMenuButton.clicked += ()=> _navigator.JumpTo<MainMenu>();
+            _view.CollectionButton.clicked += ()=> _navigator.JumpTo<CollectionPanel>();
         }
 
         protected override void UpdatePage()
@@ -31,6 +32,7 @@ namespace Widgets
         public VisualElement EnergyCatImage { get; private set; }
         public Label ResultLabel { get; private set; }
         public Button MainMenuButton { get; private set; }
+        public Button CollectionButton { get; private set; }
         
         public ResultPanelView(UIDocument document, string rootName) : base(document, rootName)
         {

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca63026b15604b43a788da4f37e776de, type: 3}
+  m_Name: WidgetTemplates
+  m_EditorClassIdentifier: 
+  Templates:
+    _templates:
+    - {fileID: 9197481963319205126, guid: 8e2f73027fededb4c887a236a3fd26a3, type: 3}

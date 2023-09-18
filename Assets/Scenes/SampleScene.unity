@@ -67,9 +67,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -391,7 +388,7 @@ MonoBehaviour:
   autoRun: 1
   autoInjectGameObjects: []
   _sceneUIDocument: {fileID: 1490906797}
-  _widgetTemplates: {fileID: 0}
+  _widgetTemplates: {fileID: 11400000, guid: 7229a8fcbbcf3fe49a5679e6a48cdc71, type: 2}
   _uiSettings:
     WidgetsAssemblyName: widgets
     UseNamedUIContext: 0

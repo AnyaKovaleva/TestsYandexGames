@@ -89,3 +89,8 @@ Label {
     border-top-color: rgb(221, 152, 20);
     border-bottom-color: rgb(221, 152, 20);
 }
+
+.locked-colection-item {
+    background-image: url('project://database/Assets/Images/QuestionmarkCat.png?fileID=21300000&guid=ad6cc614813b02c41b270089df25910c&type=3#QuestionmarkCat');
+    -unity-background-image-tint-color: rgb(120, 120, 120);
+}
