@@ -2,7 +2,9 @@
     "name": "energycattest",
     "rootNamespace": "",
     "references": [
-        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc"
+        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc",
+        "GUID:ef7e0e3eb213f324c87b70a782844fb6",
+        "GUID:fca35c8737365354094ea69a9ac2ea23"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
